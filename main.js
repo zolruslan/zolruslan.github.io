@@ -12,7 +12,7 @@ $(function(){
 		$.ajax({
 			url:data,
 			sucsess:function(data){
-				$('#text').Text(data);
+				$('#text').text(data);
 			}
 		})
 	}
